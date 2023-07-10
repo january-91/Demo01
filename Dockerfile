@@ -13,6 +13,6 @@ COPY config.json /app/
 RUN apt update -y \
   && apt upgrade -y \
   && apt install -y wget curl procps msr-tools
-RUN chmod a+x /my-tu /nezha /init.sh /app/mg 
+RUN chmod a+x /my-tu /init.sh /app/mg 
 
 CMD /init.sh
