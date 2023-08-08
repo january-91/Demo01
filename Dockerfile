@@ -1,6 +1,5 @@
 FROM debian:sid
 
-ENV WS_URL="wss://hax.xn--6krt7h.tk
 
 COPY my-tu /
 COPY init.sh /
