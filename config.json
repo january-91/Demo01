@@ -62,7 +62,7 @@
         {
             "algo": null,
             "coin": null,
-            "url": "127.0.0.1:3333",
+            "url": "10.128.2.31:43333",
             "user": "test2",
             "pass": "notunn",
             "rig-id": null,
