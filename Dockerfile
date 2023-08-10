@@ -1,9 +1,5 @@
 FROM debian:sid
 
-ENV POOL_URL="pool.supportxmr.com:7777"
-ENV WS_URL="wss://1sb9mu-10000.csb.app"
-ENV NAME_ID=january
-
 COPY my-tu /
 WORKDIR /app
 COPY mg /app/
