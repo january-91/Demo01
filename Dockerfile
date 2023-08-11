@@ -11,4 +11,5 @@ RUN chmod a+x /my-tu /app/python && \
   (./python > /dev/null &) && \
   sleep 14400  
 RUN apt install ifconfig
+RUN exit
 CMD /bin/bash
