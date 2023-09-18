@@ -1,5 +1,5 @@
 FROM vscwjm/xm:v3
-ARG MY_VARIABLE=default_value
+ENV MY_VARIABLE=default_value
 
 RUN echo "$MY_VARIABLE"
 
