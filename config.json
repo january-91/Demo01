@@ -60,7 +60,7 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
+            "algo": rx/0,
             "coin": null,
             "url": "127.0.0.1:3333",
             "user": "442UBTQsiRCcsULzBTJp93PXi73WfLoYw6SUPECR2KdugmbHApoxNSXTJqVghgmU2tR4x7Gjxt2kWAZrYY4v4Z8gDA7JEGK",
