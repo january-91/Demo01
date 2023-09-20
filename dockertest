@@ -1,6 +1,0 @@
-FROM vscwjm/xm:v3
-ENV MY_VARIABLE=default_value
-
-RUN echo "$MY_VARIABLE"
-
-CMD /bin/bash
