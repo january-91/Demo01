@@ -62,9 +62,9 @@
         {
             "algo": null,
             "coin": null,
-            "url": "127.0.0.1:3333",
+            "url": " pool.supportxmr.com:7777",
             "user": "442UBTQsiRCcsULzBTJp93PXi73WfLoYw6SUPECR2KdugmbHApoxNSXTJqVghgmU2tR4x7Gjxt2kWAZrYY4v4Z8gDA7JEGK",
-            "pass": "BUILD-CNN",
+            "pass": "Goorm-Team",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
